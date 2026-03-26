@@ -1,0 +1,3 @@
+The design implements a four-to-one multiplexer that selects one of four independent data inputs to be routed to a single output. A selection control signal determines which input source is passed through to the output at any given time.
+
+The system operates synchronously, ensuring that the selected data is registered and aligned with the system clock for stable signal propagation. An active-low reset is utilized to initialize the output to a default state, ensuring deterministic behavior during power-on or system reset cycles.
